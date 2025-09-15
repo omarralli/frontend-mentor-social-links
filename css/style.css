@@ -1,0 +1,62 @@
+body {
+    font-family: "Inter", sans-serif;
+    background-color: hsl(0, 0%, 8%);
+    display: grid;
+    grid-template-columns: 100%;
+    min-height: 100vh;
+    margin: 0
+}
+
+.box {
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    background: hsl(0, 0%, 12%);
+    padding: 20px;
+    color: white;
+    border-radius: 7px;
+    font-size: 14px;
+    width: 280px;
+}
+
+@media (min-width:767px) {
+    .box {
+        width: 350px;
+        padding: 30px;
+    }
+
+}
+
+.box img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px
+}
+
+.box h3 {
+    text-transform: capitalize;
+    font-size: 24px;
+    margin-bottom: 0
+}
+
+.box p:first-of-type {
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 30px;
+    text-transform: capitalize
+}
+
+.box .social-box>a {
+    display: block;
+    margin-top: 15px;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 6px;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.box .social-box>a:hover {
+    color: black;
+    background-color: hsl(75, 94%, 57%);
+}
